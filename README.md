@@ -1,2 +1,4 @@
 # track-movies
-A python script that sends an email notification when a movie's bluray version is released.
+This script uses Google Sheets API to fetch a spreadsheet.
+It fetches the movie bluray release date and parses it using Python datetime module.
+If parsed date matches today, it sends a notification to email address.
